@@ -67,3 +67,101 @@ convert input to str. eg: `str(29)='29'`
 convert input to int. eg: `int('29')=29`
 - float()
 convert input to float. eg: `fload('29')=29.0`
+
+## Controll Stream
+
+### Bool
+
+- True
+- False
+
+### Diff Operate Sign
+
+- <= | >=
+- ==
+- !=
+- < | >
+
+### Bool Operate Sign
+
+- and
+- or
+- not
+
+### Controll Stream Element
+
+- Condition
+- Code Block
+
+```code
+   if conditon:
+      print('aaa')
+```
+
+### Controller Stream Syntax
+
+- if
+
+```python
+  if name == 'Alice':
+      print(name)
+```
+
+- else
+
+```python
+  if name == 'Alice':
+      print('Hi , Alice')
+  else:
+    print('Hi')
+```
+
+- elif
+
+```python
+  if name == 'A':
+      print('A')
+  elif name == 'B':
+      print('B')
+```
+
+### While Loop
+
+```python
+  spam = 0
+  while spam < 5:
+      print(spam)
+      spam+=1
+```
+
+### Break
+
+The key will finish loop code block.
+
+### Continue
+
+The key will finish current loop and go into next loop code.
+
+### For Loop And Range Function
+
+```python
+   for i in range(10):
+      print(i)
+
+   for i in range(1,10):
+      print(i)
+   
+   for i in range(1,10,2):
+      print(i)
+```
+
+### Import And From Key
+
+- import: import a module
+- From: when you import some module , you can use from {module name} import {details function}
+
+### Sys.exit
+
+The methond will end the program in a advance
+
+## Function
