@@ -2,13 +2,38 @@
 
 [TOC]
 
-## Data Type
+- [Basic Code Python](#basic-code-python)
+  - [String Operation](#string-operation)
+    - [Save Value In Variable](#save-value-in-variable)
+    - [Variable Name Rules](#variable-name-rules)
+    - [Comment](#comment)
+    - [Common Function](#common-function)
+  - [Controll Stream](#controll-stream)
+    - [Bool](#bool)
+    - [Diff Operate Sign](#diff-operate-sign)
+    - [Bool Operate Sign](#bool-operate-sign)
+    - [Controll Stream Element](#controll-stream-element)
+    - [Controller Stream Syntax](#controller-stream-syntax)
+    - [While Loop](#while-loop)
+    - [Break](#break)
+    - [Continue](#continue)
+    - [For Loop And Range Function](#for-loop-and-range-function)
+    - [Import And From Key](#import-and-from-key)
+    - [Sys.exit](#sysexit)
+  - [Function](#function)
+    - [- define -> `def`](#--define---def)
+    - [Key Params And Print](#key-params-and-print)
+    - [Local Variables And Global Variables](#local-variables-and-global-variables)
+    - [Try Except](#try-except)
+  - [List](#list)
+    - [Date Type For List](#date-type-for-list)
+    - [Use List](#use-list)
 
 - int
 - float
 - string
 
-### String Operation
+## String Operation
 
 - String Join
 
@@ -29,7 +54,7 @@
 variable_name = 'ab'
 ```
 
-#### Variable Name Rules
+### Variable Name Rules
 
 - just a vocabulary
 - just contains word,num,underline
